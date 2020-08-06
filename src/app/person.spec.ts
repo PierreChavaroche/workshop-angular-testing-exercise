@@ -5,7 +5,13 @@ describe('Test for person', () => {
 
     //Arrange
     beforeEach(() => {
-
+        person = new Person(
+            'nicolas',
+            'molina',
+            23,
+            40,
+            1.65
+        );
     });
 
     describe('test for data', () => {
